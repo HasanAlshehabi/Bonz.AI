@@ -665,15 +665,15 @@ footer {
     }
 
     .sub__hero-image {
-        width: 100%;
-        margin-left: 0;
+        width: 75%;
+        height: 50%;
+        margin: auto;
         
     }
-
     .sub__text-container{
         padding-top: 1rem;
        margin: auto;
-       padding-left: 2rem;
+       padding-left: 3rem;
     }
 
     .sub__text-title {
@@ -789,12 +789,24 @@ footer {
         gap: 3rem;
     }
 
+    .booking__page-hero-text-container{
+        margin-left: 1rem;
+        top: 39%;
+    }
+
 }
 
 @media (max-width: 683px) {
     .hero__text-container {
         margin-left: 1rem;
         top: 45%;
+    }
+
+    .sub__hero-image {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        
     }
 
 
@@ -819,11 +831,11 @@ footer {
     }
 
     .green__container-title {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .green__container-text {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .ai__energy-luxury-container {
@@ -873,6 +885,7 @@ footer {
         display: block;
         margin-right: -70%;
         padding-top: 4rem;
+        color: white;
       }
 
       .logo{
@@ -926,7 +939,7 @@ footer {
 
 }
 
-@media (max-width: 417px){
+@media (max-width: 430px){
     .booking__page-hero-text-container{
         top: 35%;
     }
@@ -945,4 +958,8 @@ footer {
     .sub__text-title {
         font-size: 26px;
     }
+    .our__rooms-button,
+    .brown__container-button {
+        font-size:1rem;
+}
 }
